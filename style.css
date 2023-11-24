@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6ECEC;
+    font-family: 'Roboto', sans-serif;
+    margin: 10rem 20rem;
+}
+
+
+/*style do header*/
+.div-do-header {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    margin: -2rem 1rem;
+}
+
+.div-do-header p {
+    margin-top: 0.7rem;
+}
+
+
+/*style da nav*/
+.div-da-nav {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    float: inline-end;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-right: 1rem;
+}
+
+ul li span {
+    color: #EC0000;
+}
+
+
+/*style da ul li da nav, junto com os icons e o botão. o container onde esta todo menu de navegação*/
+.container-da-img-do-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.container-da-img-do-menu img {
+    transform: translate(50%, -61%);
+    width: 32.64px;
+}
+
+.div-das-imagens-do-nav {
+    margin: 0 1rem;
+}
+
+.div-das-imagens-do-nav button {
+    border-radius: 1.5625rem;
+    background: #EC0000;
+    padding: 10px 15px 8px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+}
+
+.div-das-imagens-do-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*style do meu main*/
+.section-do-titulo-principal {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.imgs-principais-do-site {
+    display: flex;
+    width: 516px;
+}
+
+.imgs-principais-do-site img {
+    width: 26.3125rem;
+    height: 19.5rem;
+}
+
+.img-primeira {
+    position: absolute;
+    margin-left: 31rem;
+    margin-top: -5rem;
+    z-index: 999;
+}
+
+.img-segunda {
+    position: absolute;
+    margin-left: 38.7rem;
+    margin-top: -5rem;
+}
+
+.container-de-todo-site {
+    width: 70rem;
+    flex-shrink: 0;
+    border-radius: 3.75rem;
+    background: #FFF;
+    margin: 0 -10rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 10rem 5rem;
+}
+
+.texto h2 {
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.texto p {
+    font-size: 1.5rem;
+    margin: 0.8rem 0;
+}
+
+.texto {
+    z-index: 999;
+}
+
+.texto button {
+    border-radius: 1.5625rem;
+    background: #EC0000;
+    padding: 10px 15px 8px;
+    text-decoration: none;
+    border: none;
+}
+
+.texto a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* segunda section*/
+.container-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+}
+
+.h2-da-section-second {
+    color: #00240F;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.duas-img-da-section-second {
+    display: inline;
+}
+
+.left-imagem {
+    float: left;
+    margin-left: -5rem;
+    height: 9.10413rem;
+}
+
+.right-imagem {
+    float: right;
+    height: 5.10413rem;
+    margin: -12rem -3rem 0 0;
+    transform: rotate(-90deg);
+    flex-shrink: 0;
+}
+
+.com-as-three-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.pizza1 {
+    border-radius: 11.25rem 11.25rem 1.875rem 1.875rem;
+    border: 1px solid var(--Gray-4, #BDBDBD);
+    display: inline-flex;
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3125rem;
+
+
+}
+
+.pizza1 p {
+    color: #333;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.125rem;
+}
+
+.pizza1 r1 {
+    color: #05A84B;
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+#teste {
+    border-radius: 1.5625rem;
+    border: 1px solid var(--Gray-2, #4F4F4F);
+    background: #FFF;
+    display: flex;
+    padding: 0.5625rem 1rem;
+    align-items: center;
+    gap: 1.6875rem;
+    align-self: stretch;
+}
+
+button {
+    display: flex;
+    width: 15.1875rem;
+    height: 2.5rem;
+    padding: 0.625rem 1.5rem 0.6875rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.5625rem;
+    background: #EC0000;
+    text-decoration: none;
+    border: none;
+}
+
+.img-da-section-second {
+    border-radius: 13.25rem 12.25rem 11.875rem 11.875rem;
+    border: 1px solid #BDBDBD;
+    background: #FFFDFD;
+    box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.20);
+
+}
+
+.duas-img-da-section-de-baixo {
+    display: inline;
+    position: relative;
+}
+
+.img-tomate {
+    float: left;
+    height: 7.10413rem;
+    flex-shrink: 0;
+    margin-left: -3rem;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 5rem;
+    bottom: -7rem;
+}
+
+.img-folha {
+    float: right;
+    height: 5.10413rem;
+    position: relative;
+    bottom: -4rem;
+    left: 4rem;
+}
